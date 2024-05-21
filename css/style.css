@@ -1,0 +1,60 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+/* comon */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+a{
+  text-decoration: none;
+}
+ol, ul{
+  list-style: none;
+}
+body{
+  font-family: "Playfair Display", serif;
+}
+/* logo and menu section */
+ header{
+ border-bottom: 2px solid;
+ }
+.head_box{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+.logo{
+  width: 10%;
+  float: left;
+  padding: 15px 0px;
+}
+.logo img{
+  width: 100%;
+}
+.menu{
+  width: 80%;
+  float: right;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  float: left;
+}
+.menu ul li a{
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0px 50px;
+  padding-top: 20px;
+  color: #626262;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+  font-size: 18px;
+}
+.menu ul li a:last-child{
+  margin-right: 0%;
+}
+.menu ul li:hover a{
+  border-bottom: 1px solid #626262;
+}
